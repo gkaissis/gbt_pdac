@@ -4,6 +4,10 @@
 
 This repository contains the data and code necessary to reproduce all results of the manuscript. Data is provided in the .csv format and as .dat files which can be loaded with the Python standard library tool ```joblib```.
 
+This repository is indexed on Zenodo 
+
+[![DOI](https://zenodo.org/badge/188212363.svg)](https://zenodo.org/badge/latestdoi/188212363)
+
 ---
 ### Installation instructions
 
