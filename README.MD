@@ -16,9 +16,13 @@ This repository contains the data and code necessary to reproduce all results of
 ### File Index
 
 ```Features.csv/features.dat```: Reproducible and stable features (N=50) derived from the ADC maps alongside feature names and patient indices
+
 ```Labels.csv/labels.dat```: Patient labels (0= KRT81 negative, 1= KRT 81 positive)
+
 ```clinical_data.csv```: Clinical patient data
+
 ```requirements.txt```: Required python libraries with pinned version numbers
+
 ```analysis.py```: code used for generating the results
 
 ---
