@@ -31,3 +31,9 @@ This repository is indexed on Zenodo
 
 ---
 Please note that we are unable to offer technical support. However, please feel free to offer scientific input or additional ideas via issue or pull request.
+
+---
+
+### Changelog
+
+August 21, 2019: Addressed an issue with ```analysis.py``` whereby loading csv threw an error. Added rendering call plt.show(). 
