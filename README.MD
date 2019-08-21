@@ -36,4 +36,4 @@ Please note that we are unable to offer technical support. However, please feel 
 
 ### Changelog
 
-August 21, 2019: Addressed an issue with ```analysis.py``` whereby loading csv threw an error. Added rendering call plt.show(). 
+August 21, 2019: Addressed an issue with ```analysis.py``` whereby loading csv threw an error. Added rendering call ```plt.show(). 
