@@ -23,8 +23,8 @@ import joblib
 #labels=joblib.load("labels.dat")
 
 #Loading features and labels as csv files from pandas
-#features=pd.read_csv("Features.csv")
-#labels=pd.read_csv("Labels.csv")
+#features=pd.read_csv("Features.csv", index_col=0)
+#labels=pd.read_csv("Labels.csv", index_col=0)
 
 #custom scoring functions
 def sensitivity(y, y_pred):
@@ -94,6 +94,7 @@ with plt.style.context('seaborn-colorblind'):
     plt.legend(loc="lower right")
     plt.xlabel("1-Specificity")
     plt.ylabel("Sensitivity")
+    plt.show()
 
 # Pearson Correlation Matrix of Selected features
 selected = [
@@ -117,3 +118,4 @@ c_ = c.corr(method="spearman")
 
 plt.figure(figsize=(5,5))
 sns.heatmap(c_, vmax=1, vmin=-1, center=0, cmap="viridis")
+plt.show()
